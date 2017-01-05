@@ -1,20 +1,40 @@
 # To get started with security, check out the documentation:
 # https://symfony.com/doc/current/security.html
 security:
-
     # https://symfony.com/doc/current/security.html#b-configuring-how-users-are-loaded
+    encoders:
+        loginBundle\Entity\User: bcrypt
     providers:
-        in_memory:
-            memory: ~
-
+        my_ldap:
+            ldap:
+                service: Symfony\Component\Ldap\Ldap
+                base_dn: dc=dpstream,dc=tn
+                search_dn: "cn=Manager,dc=dpstream,dc=tn"
+                search_password: 123456
+                default_roles: ROLE_ADMIN
+                uid_key: uid
     firewalls:
         # disables authentication for assets and the profiler, adapt it according to your needs
+        admin_area:
+            anonymous:  ~
+            http_basic: ~
+            provider: my_ldap
+            form_login_ldap:
+                default_target_path: /webphone
+                failure_path: /
+                check_path: /login_check
+                login_path: /login
+                remember_me: true
+                service: Symfony\Component\Ldap\Ldap
+                dn_string: 'uid={username},ou=People,dc=dpstream,dc=tn'
+            logout:
+                path:   /logout
+        main:
+            anonymous: ~
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
 
-        main:
-            anonymous: ~
             # activate different ways to authenticate
 
             # https://symfony.com/doc/current/security.html#a-configuring-how-your-users-will-authenticate
@@ -22,3 +42,6 @@ security:
 
             # https://symfony.com/doc/current/security/form_login_setup.html
             #form_login: ~
+    access_control:
+        - { path: ^/, roles: IS_AUTHENTICATED_ANONYMOUSLY }
+        - { path: ^/webphone, roles: ROLE_ADMIN }
