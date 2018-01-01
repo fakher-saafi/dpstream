@@ -1,0 +1,4 @@
+services:
+#    webphone.example:
+#        class: webphoneBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

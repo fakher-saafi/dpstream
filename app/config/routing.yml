@@ -1,0 +1,9 @@
+login:
+    resource: "@loginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+webphone:
+    resource: "@webphoneBundle/Resources/config/routing.yml"
+    prefix:   /webphone
+
+

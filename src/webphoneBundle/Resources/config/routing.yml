@@ -1,0 +1,4 @@
+webphone_homepage:
+    path:     /
+    defaults: { _controller: webphoneBundle:Default:index }
+
