@@ -1,0 +1,11 @@
+{% for files in files %}
+    <ul>{{ files }}</ul>
+{% endfor %}
+<form method="POST" action="{{ path('ftp_upload') }}" enctype="multipart/form-data">
+    Fichier : <input type="file" name="file">
+    <input type="submit" name="envoyer" value="Envoyer le fichier">
+</form>
+<form method="POST" action="{{ path('ftp_download') }}" enctype="multipart/form-data">
+    Fichier : <input type="text" name="fichier">
+    <input type="submit" name="télécharger" value="télécharger">
+</form>

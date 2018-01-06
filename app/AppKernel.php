@@ -17,6 +17,8 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new webphoneBundle\webphoneBundle(),
             new loginBundle\loginBundle(),
+            new ftpBundle\ftpBundle(),
+            new Ijanki\Bundle\FtpBundle\IjankiFtpBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

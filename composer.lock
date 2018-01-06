@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c249e07f1136d546d72bbfb701311fc",
+    "content-hash": "db7ed763ecbbc725d0e31585c3e9f662",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -888,6 +888,51 @@
                 "rest"
             ],
             "time": "2016-10-17T18:31:11+00:00"
+        },
+        {
+            "name": "ijanki/ftp-bundle",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iJanki/FtpBundle.git",
+                "reference": "81dc9718ffb603c1ee49fc403b86df4216ab16de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iJanki/FtpBundle/zipball/81dc9718ffb603c1ee49fc403b86df4216ab16de",
+                "reference": "81dc9718ffb603c1ee49fc403b86df4216ab16de",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "symfony/config": "*",
+                "symfony/dependency-injection": "*",
+                "symfony/http-kernel": "*"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Ijanki\\Bundle\\FtpBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Cesarini",
+                    "email": "daniele.cesarini@gmail.com",
+                    "homepage": "http://www.danielecesarini.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A Symfony2 Bundle to wrap the PHP ftp extension functionality in a more classy way.",
+            "homepage": "https://github.com/iJanki/FtpBundle",
+            "keywords": [
+                "ftp"
+            ],
+            "time": "2017-03-18T09:20:36+00:00"
         },
         {
             "name": "incenteev/composer-parameter-handler",

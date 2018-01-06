@@ -1,3 +1,7 @@
+ftp:
+    resource: "@ftpBundle/Resources/config/routing.yml"
+    prefix:   /
+
 login:
     resource: "@loginBundle/Resources/config/routing.yml"
     prefix:   /

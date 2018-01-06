@@ -1,0 +1,13 @@
+ftp_homepage:
+    path:     /
+    defaults: { _controller: ftpBundle:Default:index }
+
+ftp_upload:
+    path:     /upload
+    defaults: { _controller: ftpBundle:Default:upload }
+    methods: [GET, POST]
+
+ftp_download:
+    path:     /download
+    defaults: { _controller: ftpBundle:Default:download }
+    methods: [GET, POST]

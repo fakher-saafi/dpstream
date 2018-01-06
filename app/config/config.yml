@@ -4,6 +4,7 @@ imports:
     - { resource: services.yml }
     - { resource: "@webphoneBundle/Resources/config/services.yml" }
     - { resource: "@loginBundle/Resources/config/services.yml" }
+    - { resource: "@ftpBundle/Resources/config/services.yml" }
 
 
 # Put parameters here that don't need to change on each machine where the app is deployed
