@@ -1,11 +1,25 @@
-{% for files in files %}
-    <ul>{{ files }}</ul>
-{% endfor %}
-<form method="POST" action="{{ path('ftp_upload') }}" enctype="multipart/form-data">
-    Fichier : <input type="file" name="file">
-    <input type="submit" name="envoyer" value="Envoyer le fichier">
-</form>
-<form method="POST" action="{{ path('ftp_download') }}" enctype="multipart/form-data">
-    Fichier : <input type="text" name="fichier">
-    <input type="submit" name="télécharger" value="télécharger">
-</form>
+{% extends 'base.html.twig' %}
+{% block ftp_active %}active{% endblock %}
+{% block body %}
+   <div class="container">
+   <div class="row">
+   <div class="col-sm-4">
+
+   </div>
+   <div class="col-sm-8">
+       {% for files in files %}
+          <ul>{{ files }}</ul>
+       {% endfor %}
+      <form method="POST" action="{{ path('ftp_upload') }}" enctype="multipart/form-data">
+         Fichier : <input type="file" name="file">
+         <input class="btn-success" type="submit" name="envoyer" value="Envoyer le fichier">
+      </form>
+      <form method="POST" action="{{ path('ftp_download') }}" enctype="multipart/form-data">
+         Fichier : <input type="text" name="fichier">
+         <input type="submit" name="télécharger" value="télécharger">
+      </form>
+   </div>
+   </div>
+   </div>
+
+{% endblock body %}

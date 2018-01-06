@@ -1,6 +1,6 @@
 ftp:
     resource: "@ftpBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /ftp
 
 login:
     resource: "@loginBundle/Resources/config/routing.yml"

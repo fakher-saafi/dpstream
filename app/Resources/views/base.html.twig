@@ -36,10 +36,10 @@
         </div>
         <div class="sidebar-wrapper">
             <ul class="nav">
-                <li class="{% block ldap_active %}{% endblock %}">
-                    <a href="dashboard.html">
+                <li class="{% block ftp_active %}{% endblock %}">
+                    <a href="{{ path('ftp_homepage') }}">
                         <i class="material-icons">dashboard</i>
-                        <p>LDAP</p>
+                        <p>FTP</p>
                     </a>
                 </li>
                 <li class="{% block mail_active %}{% endblock %}">
@@ -66,12 +66,8 @@
                         <p>BACKUP</p>
                     </a>
                 </li>
-                <li>
-                    <a href="./maps.html">
-                        <i class="material-icons">location_on</i>
-                        <p>.......</p>
-                    </a>
-                </li>
+
+
 
             </ul>
         </div>
