@@ -1,0 +1,6 @@
+mail_homepage:
+    path:     /
+    defaults: { _controller: mailBundle:Default:index }
+mail_send:
+    path:     /box
+    defaults: { _controller: mailBundle:Default:box_mail }

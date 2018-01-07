@@ -1,3 +1,7 @@
+mail:
+    resource: "@mailBundle/Resources/config/routing.yml"
+    prefix:   /mail
+
 ftp:
     resource: "@ftpBundle/Resources/config/routing.yml"
     prefix:   /ftp

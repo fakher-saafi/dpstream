@@ -43,7 +43,7 @@
                     </a>
                 </li>
                 <li class="{% block mail_active %}{% endblock %}">
-                    <a href="./user.html">
+                    <a href="{{ path('mail_homepage') }}">
                         <i class="material-icons">person</i>
                         <p>MAIL</p>
                     </a>
@@ -57,7 +57,7 @@
                 <li class="{% block voip_active %}{% endblock %}">
                     <a href="{{ path('webphone_homepage') }}">
                         <i class="material-icons">library_books</i>
-                        <p>VIOP</p>
+                        <p>...</p>
                     </a>
                 </li>
                 <li class="{% block backup_active %}{% endblock %}">
