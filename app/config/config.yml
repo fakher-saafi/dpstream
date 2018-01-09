@@ -7,6 +7,7 @@ imports:
     - { resource: "@ftpBundle/Resources/config/services.yml" }
     - { resource: "@MongoBundle/Resources/config/services.yml" }
     - { resource: "@BaculaBundle/Resources/config/services.yml" }
+    - { resource: "@FrontBundle/Resources/config/services.yml" }
 
 
 # Put parameters here that don't need to change on each machine where the app is deployed

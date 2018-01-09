@@ -1,0 +1,7 @@
+front_homepage:
+    path:     /fronthome
+    defaults: { _controller: FrontBundle:Default:index }
+
+front_streamingpage:
+    path:     /streamingpage
+    defaults: { _controller: FrontBundle:Default:streaming }

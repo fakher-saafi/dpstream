@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new MongoBundle\MongoBundle(),
             new IsmaAmbrosi\Bundle\GeneratorBundle\IsmaAmbrosiGeneratorBundle(),
             new BaculaBundle\BaculaBundle(),
+            new FrontBundle\FrontBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

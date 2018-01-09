@@ -2,38 +2,413 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fa1414-2979-4f92-b586-c56a94526ef0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_1_7_18_5_32_PM_c.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_1_9_18_10_23_AM_c.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_7_18_5_32_PM_s.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_9_18_10_23_AM_s.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BaculaBundle/BaculaBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BaculaBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BaculaBundle/Resources/config/routing.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BaculaBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MongoBundle/Controller/DefaultController.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MongoBundle/MongoBundle.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MongoBundle/Resources/config/routing.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MongoBundle/Resources/config/services.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/MongoBundle/Resources/views/Default/index.html.twig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/BaculaBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tests/MongoBundle/Controller/DefaultControllerTest.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_02_01_18_14_20_c.xml" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Composer_02_01_18_14_20_c.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_12_21_17_11_49_PM_s.xml" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_12_21_17_11_49_PM_s.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_5_18_5_04_PM_s.xml" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_5_18_5_04_PM_s.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_6_18_12_23_PM_s.xml" afterPath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_1_6_18_12_23_PM_s.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dpstream.iml" afterPath="$PROJECT_DIR$/.idea/dpstream.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/DefaultController.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/FrontBundle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/config/services.yml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/streamingpage.html.twig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tests/FrontBundle/Controller/DefaultControllerTest.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/contactstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/faqstyle.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/flexslider.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/jquery.slidey.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/medile.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/news.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/owl.carousel.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/popuo-box.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/single.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/c9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/dpstream.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h1-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h2-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h3-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/h9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/img-sp.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m17.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m18.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m19.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m20.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m21.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m22.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m23.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/m9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/n9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/new.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/news1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/play-button.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/user.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/easing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/jquery-2.1.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/jquery.dotdotdot.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/jquery.flexslider.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/jquery.magnific-popup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/jquery.slidey.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/move-top.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/owl.carousel.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/simplePlayer.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-css/basictable.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-css/list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-css/table-style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-js/jquery.basictable.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-js/jquery.mobile.custom.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/list-js/jquery.tools.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/news-css/news.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/front.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/front.html.twig" />
       <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
       <change beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
-      <change beforePath="$PROJECT_DIR$/bin/symfony_requirements" afterPath="$PROJECT_DIR$/bin/symfony_requirements" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/var/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/var/SymfonyRequirements.php" />
-      <change beforePath="$PROJECT_DIR$/web/config.php" afterPath="$PROJECT_DIR$/web/config.php" />
+      <change beforePath="$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig" afterPath="$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/ftpBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/ftpBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/webphoneBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/webphoneBundle/Resources/views/Default/index.html.twig" />
+      <change beforePath="$PROJECT_DIR$/src/webphoneBundle/Resources/views/Default/webphone_launch.html.twig" afterPath="$PROJECT_DIR$/src/webphoneBundle/Resources/views/Default/webphone_launch.html.twig" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/assets/bullets2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/assets/navigdots.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/assets/navigdots_bgtile.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/blue.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/bootstrap.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/images/ui-bg_diagonals-thick_18_b81900_40x40.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/images/ui-bg_diagonals-thick_20_666666_40x40.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/images/ui-bg_flat_10_000000_40x100.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/images/ui-bg_glass_100_f6f6f6_1x400.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/light.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/medicom.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/next-horizontal.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/revolution_style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/css/settings.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Black-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Black-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Black-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Black-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Black-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BlackIt-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BlackIt-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BlackIt-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BlackIt-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BlackIt-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Bold-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Bold-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Bold-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Bold-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Bold-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BoldIt-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BoldIt-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BoldIt-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BoldIt-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-BoldIt-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLight-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLight-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLight-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLight-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLight-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLightIt-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLightIt-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLightIt-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLightIt-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-ExtraLightIt-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-It-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-It-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-It-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-It-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-It-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Light-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Light-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Light-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Light-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Light-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-LightIt-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-LightIt-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-LightIt-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-LightIt-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-LightIt-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Regular-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Regular-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Regular-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Regular-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Regular-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Semibold-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Semibold-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Semibold-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Semibold-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-Semibold-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-SemiboldIt-webfont-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-SemiboldIt-webfont-3.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-SemiboldIt-webfont-4.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-SemiboldIt-webfont.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/SourceSansPro-SemiboldIt-webfontd41d.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/font-awesome.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fontawesome-webfontba72.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fontawesome-webfontba72.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fontawesome-webfontba72.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fontawesome-webfontba72.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fontawesome-webfontd41d.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/fonts.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/fonts/glyphicons-halflings-regulard41d.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/about-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/about-slider-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/about-slider-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/about-slider-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/app-available-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/app-store-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/appointment-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/appointment-img2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/author-avator.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/avator.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/banner-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/banner-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/banner-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/banner-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/best-seller-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/best-seller-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/best-seller-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/better-technology-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/better-technology.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg-input-focus.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg-input.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/bg9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blank.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blank.png" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/arrow.png" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-2-column-img6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-large-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-large-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog-large-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog2-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog2-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blog2-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/blue-overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/cancer-canter-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/colourfull-line.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/comment-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/creative-sec-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/creative-sec-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/creative-sec-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/creative-sec-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/creative-sec-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/date-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/date-picker-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/department-content-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/directions-btn.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctor-img7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/doctors.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/emergency-services-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/emergency-services.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/fancybox_loading.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/fancybox_loading@2x.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/fancybox_overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/fancybox_sprite@2x.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/favicon.png" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/new.png" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/features-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/footer-logo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-img9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/gallery-largeimg9.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/google-play-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/hand.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/heading-border.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/heart-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/heart-specialist.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/heart.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/hospital-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/hospital-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/latest-news1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/latest-news2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/latest-news3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/latest-news4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/left-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/lines-bg-white.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/lines-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/logo2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/mega-menu-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/mini-slider-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/mini-slider-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/mobile-hand.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/patient-and-family-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/patient-and-family-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/patient-and-family-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/patient-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/plus-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/pointing-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/product-img8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/radio-btn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/recent-post-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/recent-post-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/recent-post-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/research-banner-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/right-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/select-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/shop-banner-img1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/shop-slider-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/site-loader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-girl-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-img-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/slider2-overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/sub-page-banner.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/tab-slider-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/tab.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-desc-bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-desc-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-desc-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-desc-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-desc-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-member-desc-arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-member-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-member-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-member-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/team-member-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/tech-women.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/toggle-btn.png" afterPath="$PROJECT_DIR$/web/FrontTemplate/mytemplate/images/arrow1.png" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/video-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/images/video-overlay.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/color-switcher.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/counter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/easyResponsiveTabs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/forms-validation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery-ui-1.10.3.custom.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.easypiechart.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.fancybox-media.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.fancybox.pack.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.jcarousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.mixitup.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.stellar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.themepunch.plugins.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.themepunch.revolution.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/jquery.uniform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/map2.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/modernizr-2.6.2.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/owl.carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/scripts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/video.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/FrontTemplate/js/waypoints.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,28 +424,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="91" column="61" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -82,6 +436,10 @@
       <find>voip</find>
       <find>hidden</find>
       <find>edit</find>
+      <find>don't</find>
+      <find>image</find>
+      <find>the legend</find>
+      <find>single</find>
     </findStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
@@ -154,8 +512,14 @@
         <option value="$PROJECT_DIR$/src/MongoBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/MongoBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/edit.html.twig" />
-        <option value="$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig" />
         <option value="$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/front/homepage.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/front.html.twig" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/streamingpage.html.twig" />
       </list>
     </option>
   </component>
@@ -281,7 +645,94 @@
               <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
               <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="BaculaBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Default" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MongoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MongoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MongoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MongoBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Movie" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dpstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dpstream" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="FrontTemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mytemplate" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -298,19 +749,19 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dpstream" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Haroun\Desktop\Projet Pi Symfony\dpstream\src\FrontBundle\Resources\views\Default" />
+      <recent name="C:\Users\Haroun\Desktop\Projet Pi Symfony\dpstream\app\Resources\views\front" />
+      <recent name="C:\Users\Haroun\Desktop\Projet Pi Symfony\dpstream\web\FrontTemplate" />
+      <recent name="C:\wamp\www\dpstream\src\ftpBundle" />
+      <recent name="C:\wamp64\www\dpstream-master\web" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\dpstream-master\app\Resources\views" />
       <recent name="C:\wamp\www\dpstream\web" />
       <recent name="C:\wamp\www\dpstream\src\DpstreamBundle\Resources\views" />
       <recent name="C:\wamp\www\dpstream\src\DpstreamBundle\Resources" />
       <recent name="C:\wamp\www\dpstream\src\DpstreamBundle" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\dpstream\src\ftpBundle" />
-      <recent name="C:\wamp64\www\dpstream-master\web" />
-      <recent name="C:\wamp64\www\dpstream-master\app\Resources\views\default" />
-      <recent name="C:\wamp64\www\dpstream-master\src" />
-      <recent name="C:\wamp64\www\dpstream-master\src\loginBundle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -406,26 +857,27 @@
       <workItem from="1515170957348" duration="913000" />
       <workItem from="1515237459113" duration="6449000" />
       <workItem from="1515342595784" duration="734000" />
-      <workItem from="1515483466371" duration="15630000" />
+      <workItem from="1515483466371" duration="21404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91498000" />
+    <option name="totallyTimeSpent" value="97272000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="1" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21526718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5030534" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.49694657" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.49694657" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21526718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -433,7 +885,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -471,43 +922,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/webphoneBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/webphoneBundle/Resources/views/Default/webphone_launch.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/JsonLogin/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/loginBundle/Resources/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/loginBundle/DataFixtures/AdminFixtures.php" />
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
     <entry file="file://$PROJECT_DIR$/src/loginBundle/Entity/User.php" />
     <entry file="file://$PROJECT_DIR$/src/loginBundle/Controller/loginFixturesController.php" />
     <entry file="file://$PROJECT_DIR$/src/loginBundle/DataFixtures/loginFixtures.php" />
@@ -578,13 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/front.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2091">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/back.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -603,6 +1010,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -794,14 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MongoBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -818,18 +1218,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="91" column="61" lean-forward="false" selection-start-line="91" selection-start-column="51" selection-end-line="91" selection-end-column="61" />
+        <state relative-caret-position="68">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BaculaBundle/Resources/views/Default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/FrontTemplate/mytemplate/js/easing.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/front/frontbase.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="50" column="21" lean-forward="false" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/front/homepage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#335#380#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MongoBundle/Resources/views/Movie/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/streamingpage.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="252" column="55" lean-forward="false" selection-start-line="252" selection-start-column="55" selection-end-line="252" selection-end-column="55" />
+          <folding>
+            <element signature="e#13#28#0#Twig" expanded="true" />
+            <element signature="e#1347#1354#1#HTML" expanded="true" />
+            <element signature="e#47740#47746#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="410" column="82" lean-forward="false" selection-start-line="410" selection-start-column="82" selection-end-line="410" selection-end-column="82" />
+          <folding>
+            <element signature="e#13#28#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/front.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
