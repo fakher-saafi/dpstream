@@ -1,0 +1,30 @@
+movie:
+    pattern:  /
+    defaults: { _controller: "MongoBundle:Movie:index" }
+
+movie_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "MongoBundle:Movie:show" }
+
+movie_new:
+    pattern:  /new
+    defaults: { _controller: "MongoBundle:Movie:new" }
+
+movie_create:
+    pattern:  /create
+    defaults: { _controller: "MongoBundle:Movie:create" }
+    requirements: { _method: post }
+
+movie_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "MongoBundle:Movie:edit" }
+
+movie_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "MongoBundle:Movie:update" }
+    requirements: { _method: post|put }
+
+movie_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "MongoBundle:Movie:delete" }
+    requirements: { _method: post|delete }

@@ -19,6 +19,10 @@ class AppKernel extends Kernel
             new loginBundle\loginBundle(),
             new ftpBundle\ftpBundle(),
             new Ijanki\Bundle\FtpBundle\IjankiFtpBundle(),
+            new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
+            new MongoBundle\MongoBundle(),
+            new IsmaAmbrosi\Bundle\GeneratorBundle\IsmaAmbrosiGeneratorBundle(),
+            new BaculaBundle\BaculaBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

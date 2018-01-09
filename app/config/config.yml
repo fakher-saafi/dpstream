@@ -5,6 +5,8 @@ imports:
     - { resource: "@webphoneBundle/Resources/config/services.yml" }
     - { resource: "@loginBundle/Resources/config/services.yml" }
     - { resource: "@ftpBundle/Resources/config/services.yml" }
+    - { resource: "@MongoBundle/Resources/config/services.yml" }
+    - { resource: "@BaculaBundle/Resources/config/services.yml" }
 
 
 # Put parameters here that don't need to change on each machine where the app is deployed
@@ -71,3 +73,13 @@ swiftmailer:
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }
+
+doctrine_mongodb:
+    connections:
+        default:
+            server: "%mongodb_server%"
+            options: {}
+    default_database: admin
+    document_managers:
+        default:
+            auto_mapping: true

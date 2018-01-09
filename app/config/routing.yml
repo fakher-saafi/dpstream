@@ -1,3 +1,11 @@
+bacula:
+    resource: "@BaculaBundle/Resources/config/routing.yml"
+    prefix:   /
+
+mongo:
+    resource: "@MongoBundle/Resources/config/routing.yml"
+    prefix:   /
+
 ftp:
     resource: "@ftpBundle/Resources/config/routing.yml"
     prefix:   /ftp

@@ -1,0 +1,31 @@
+mongo_homepage:
+    path:     /
+    defaults: { _controller: MongoBundle:Default:index }
+
+movie:
+    path:     /movies_index
+    defaults: { _controller: MongoBundle:Movie:index }
+
+movie_show:
+    path:     /{id}/show
+    defaults: { _controller: MongoBundle:Movie:show }
+
+movie_new:
+    path:     /new
+    defaults: { _controller: MongoBundle:Movie:new }
+
+movie_create:
+    path:     /create
+    defaults: { _controller: MongoBundle:Movie:create }
+
+movie_edit:
+    path:     /{id}/edit
+    defaults: { _controller: MongoBundle:Movie:edit }
+
+movie_update:
+    path:     /{id}/update
+    defaults: { _controller: MongoBundle:Movie:update }
+
+movie_delete:
+    path:     /{id}/delete
+    defaults: { _controller: MongoBundle:Movie:delete }

@@ -1,0 +1,23 @@
+
+<h1>Movie edit</h1>
+
+<form action="{{ path('movie_update', { 'id': document.id }) }}" method="post" {{ form_start(edit_form) }}>
+    {{ form_widget(edit_form) }}
+    <p>
+        <button type="submit">Edit</button>
+    </p>
+</form>
+
+<ul class="record_actions">
+    <li>
+        <a href="{{ path('movie') }}">
+            Back to the list
+        </a>
+    </li>
+    <li>
+        <form action="{{ path('movie_delete', { 'id': document.id }) }}" method="post">
+            {{ form_widget(delete_form) }}
+            <button type="submit">Delete</button>
+        </form>
+    </li>
+</ul>
