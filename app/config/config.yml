@@ -5,9 +5,13 @@ imports:
     - { resource: "@webphoneBundle/Resources/config/services.yml" }
     - { resource: "@loginBundle/Resources/config/services.yml" }
     - { resource: "@ftpBundle/Resources/config/services.yml" }
+<<<<<<< HEAD
     - { resource: "@MongoBundle/Resources/config/services.yml" }
     - { resource: "@BaculaBundle/Resources/config/services.yml" }
     - { resource: "@FrontBundle/Resources/config/services.yml" }
+=======
+    - { resource: "@mailBundle/Resources/config/services.yml" }
+>>>>>>> ba944cc72262a79192505f2cafa315513d6247d8
 
 
 # Put parameters here that don't need to change on each machine where the app is deployed
@@ -69,8 +73,8 @@ doctrine:
 
 # Swiftmailer Configuration
 swiftmailer:
-    transport: '%mailer_transport%'
-    host: '%mailer_host%'
+    transport: smtp
+    host: //serveursmtp
     username: '%mailer_user%'
     password: '%mailer_password%'
     spool: { type: memory }

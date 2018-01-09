@@ -19,11 +19,15 @@ class AppKernel extends Kernel
             new loginBundle\loginBundle(),
             new ftpBundle\ftpBundle(),
             new Ijanki\Bundle\FtpBundle\IjankiFtpBundle(),
+<<<<<<< HEAD
             new Doctrine\Bundle\MongoDBBundle\DoctrineMongoDBBundle(),
             new MongoBundle\MongoBundle(),
             new IsmaAmbrosi\Bundle\GeneratorBundle\IsmaAmbrosiGeneratorBundle(),
             new BaculaBundle\BaculaBundle(),
             new FrontBundle\FrontBundle(),
+=======
+            new mailBundle\mailBundle(),
+>>>>>>> ba944cc72262a79192505f2cafa315513d6247d8
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

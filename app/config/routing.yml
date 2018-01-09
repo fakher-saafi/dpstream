@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 front:
     resource: "@FrontBundle/Resources/config/routing.yml"
     prefix:   /
@@ -9,6 +10,11 @@ bacula:
 mongo:
     resource: "@MongoBundle/Resources/config/routing.yml"
     prefix:   /
+=======
+mail:
+    resource: "@mailBundle/Resources/config/routing.yml"
+    prefix:   /mail
+>>>>>>> ba944cc72262a79192505f2cafa315513d6247d8
 
 ftp:
     resource: "@ftpBundle/Resources/config/routing.yml"
